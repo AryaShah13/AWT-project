@@ -1,0 +1,542 @@
+.nav{
+    background-color: rgb(216, 207, 207);
+    height: 100px;   
+}
+.a{
+    float: right;
+}
+.naup{
+    float: right;
+}
+.naup ul{
+    display: flex;
+}
+.naup li{
+    list-style: none;
+    margin-right: 20px;
+}
+.naup li a{
+    color: black;
+    text-decoration: none;
+}
+.nadn{
+    float: right;
+}
+.nadn ul{
+    display: flex;   
+}
+.nadn li{
+    list-style: none;
+    margin-right: 20px;
+}
+.nadn li a{
+    color: black;
+    text-decoration: none;   
+    position: relative;
+}
+.nadn li a:after {
+    content: "";
+    position: absolute;
+    background-color: red;
+    height: 3px;
+    width: 0;
+    left: 0px;
+    bottom: -5px;
+    transition: 0.3s;
+}
+.nadn li a:hover:after{
+   width: 100%;
+}
+.show{
+    width: 100%;
+    height:300px;
+    background-color:aliceblue;
+    display: flex; 
+    margin-top: 6px;
+    position: fixed;  
+}
+.show li{
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style-type: none; 
+}
+.mega{
+    display: flex;.show {
+    width: 100%;
+    height: 300px;
+    background-color: aliceblue;
+    display: flex;
+}
+#nave {
+    position: absolute;   
+}
+    margin-left: 100px;
+}
+.mega ul li a{
+    text-decoration: none;
+    color: black;    
+}
+.m li{
+padding-top: 10%;
+white-space: nowrap; 
+}
+.m2{
+    margin-top: 25%;
+}
+.m2 li{
+    padding-top: 10%;
+    white-space: nowrap;    
+}
+.mega2{
+    display: flex;  
+    margin-left: 10%; 
+}
+.mega2 ul li a{
+    text-decoration: none;
+    color: black;  
+}
+
+.m3 li{
+    padding-top: 5% ;
+    padding-left: 20%;
+    white-space: nowrap;   
+}
+.m4{
+    margin-top: 22%;
+    white-space: nowrap; 
+    margin-left: 30px;
+}
+.m4 li{
+    padding:5%;
+}
+.show1{
+    background-color: aliceblue;
+    width: 100%;
+    height:300px;
+    margin-top: 6px;
+}
+.show1 li{
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style-type: none;   
+}
+.mega1{
+    display: flex;.show {
+    display: flex;
+}
+.show1{
+    height: 300px;
+    width:100%;
+    left:0;
+    position: fixed;
+}
+#nave1 {
+    position: absolute; 
+    top: 50px;
+    left: 0; 
+    width: 100%;
+}
+    margin-left: 200px;
+}
+.show1{
+    display: flex;
+}
+.m1 li{
+    list-style: none;
+    margin-top:5%;    
+}
+.m1 li a{
+    text-decoration: none;
+    color: black;   
+}
+.show2{
+    background-color: aliceblue;
+    margin-top: 6px;
+}
+.show2 li{
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style-type: none;   
+}
+.show2{
+    height: 300px;
+    width:100%;
+    left:0;
+    position: fixed;
+}
+#nave2 {
+    position: absolute; 
+    top: 50px;
+    left: 0; 
+    width: 100%;
+}
+.show2{
+    display: flex;
+}
+
+.m5 h2 {
+    margin-left: 2%;
+    white-space: nowrap;  
+}
+.m5 li{
+    list-style: none;
+    margin-top:5%;  
+    margin-left: 20%;  
+}
+.m5 li a{
+    text-decoration: none;
+    color: black;   
+}
+.exp{
+    background-color: aliceblue;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    position: fixed;
+    margin-top: 6px;
+}
+.sh3{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    
+}
+#nave3 {
+    position: relative; 
+    top: 50px;
+    left: 0; 
+    width: 100%;
+}
+.m6 li{
+    list-style: none;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+.m6 li a {
+    text-decoration: none;
+    color: black;
+}
+.im2{
+    margin-left: 12%;
+    display: flex;
+    margin-top: 10px;
+}
+.im2 img{
+    padding-left: 40px;
+}
+.loyal{
+        background-color: aliceblue;
+        display: flex;
+        width: 100%;
+        height: 300px;
+        position: fixed;
+        margin-top: 6px;
+}
+.m7 li{
+    list-style: none;
+    font-family: sans-serif;margin-top: 5%;
+}
+.m7 li a{ 
+    color: black;
+    text-decoration: none;
+}
+.im3{
+    margin-left: 15%;
+    display: flex;
+    margin-top: 10px;
+    position: relative;
+}
+.im3 img{
+    padding-left: 40px;
+}
+.imgtext{
+     background: linear-gradient(to bottom, rgba(255, 255, 255, 255) 0%, rgba(0.1, 0.2, 0.3, 0.5) 100%);
+     position: absolute;
+     top: 5px;
+     left: 40px;
+     width: 250px;
+    height: 250px;
+}
+.imgtext p{
+    position: absolute;
+    color: white;
+    top: 140px;
+    left: 70px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.imgtext h3 {
+    position: absolute;
+    color: aliceblue;
+    top: 150px;
+    left: 70px;
+    font-size: 24px;
+    font-weight: bold;    
+}
+.imgtext h4{
+    position: absolute;
+    color: white;
+    top:170px;
+    left: 70px;
+    font-size:24px ;
+    font-weight: bold;
+}
+.imgtext1{
+     background: linear-gradient(to bottom, rgba(255, 255, 255, 255) 0%, rgba(0.1, 0.2, 0.3, 0.5) 100%);
+     position: absolute;
+     top: 5px;
+     left: 40px;
+     width: 250px;
+    height: 250px;
+}
+.imgtext1 p{
+    position: absolute;
+    color: white;
+    top: 140px;
+    left: 60px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.imgtext1 h3, .imgtext3 h3 {
+    position: absolute;
+    color: aliceblue;
+    top: 150px;
+    left: 60px;
+    font-size: 24px;
+    font-weight: bold;    
+}
+.imgtext1 h6{
+    position: absolute;
+    color: white;
+    top:210px;
+    left: 60px;
+    font-size:24px ;
+    font-weight: bold;
+}
+.row2 {
+    position: relative;
+}
+.imgtext2,.imgtext3{
+     background: linear-gradient(to bottom, rgba(255, 255, 255, 255) 0%, rgba(0.1, 0.2, 0.3, 0.5) 100%);
+     position: absolute;
+     top: 5px;
+     left: 40px;
+     width: 250px;
+    height: 250px;
+}
+.imgtext2 p, .imgtext3 p{
+    position: absolute;
+    color: white;
+    top: 140px;
+    left: 60px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.imgtext2 h3,.imgtext3 h3 {
+    position: absolute;
+    color: aliceblue;
+    top: 150px;
+    left: 20px;
+    font-size: 24px;
+    font-weight: bold;    
+}
+.imgtext2 h6{
+    position: absolute;
+    color: aliceblue;
+    top: 210px;
+    left: 20px;  
+}
+.imgtext4,.imgtext5{
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 255) 0%, rgba(0.1, 0.2, 0.3, 0.5) 100%);
+    position: absolute;
+    top: 13px;
+    left: 40px;
+    width: 250px;
+   height: 250px;  
+}
+.imgtext4 a,.imgtext5 a {
+    position: absolute;
+    color: aliceblue;
+    top: 150px;
+    left: 20px;
+    text-decoration: none;
+}
+.imgtext5 h6{
+    position: absolute;
+    color: aliceblue;
+    top: 50px;
+    left: 0px;
+}
+.container{
+    margin-top: 10px;
+    background-color:  rgb(255, 252, 252);
+    height: 220px;
+    width: 100%;
+}
+.container button{
+    display: inline;
+    padding-right: 2%;
+    padding-left: 2%;
+    background-color:black;
+    border-radius: 10%;
+    margin-top: 5px;
+    margin-left: 5%;
+    color: aliceblue;
+    height: 25px;
+}
+ .form-section {
+    display: none;
+}
+#search {
+    display: block;
+}
+
+.usa{
+    
+    padding-top: 50px;
+    background-image: url(a10.jpg);
+    max-width:  100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.usa h1{
+    color: aliceblue;
+   padding-left: 50px;
+    padding-top: 40px;
+    color: red;
+    background-color: aliceblue;
+    opacity: 40%;
+    height: 105px;
+    width:600px;
+    border-radius: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.usa h1:hover{
+    opacity: 100%;
+    background-color: rgb(14, 109, 192);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ua{
+    padding-left: 750px;
+}
+.ua h2{
+    color: red;
+    background-color: aliceblue;
+    opacity: 40%;
+    height: 105px;
+    width:650px;
+    border-radius: 50%;
+    padding-top: 40px;
+    padding-left: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ua h2:hover{
+    opacity: 100%;
+    background-color: rgb(14, 109, 192);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.india{
+    background: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%), /* Gradient overlay */
+    url('i4.png'); 
+    background-size: cover; /* Ensure the image covers the container */
+    background-position: center; /* Center the background image */
+
+    max-width: 100%;
+    height: 450px;
+    padding-top: 50px; 
+}
+.india h2{
+    color: black;
+    padding-left: 600px;
+    height: 100px;
+    width:600px;
+    opacity: 40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.india h2:hover{
+    opacity: 100%;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+.seat{
+    display: flex;
+    background-image: url(s6);
+    background-color:  rgb(5, 5, 68);
+    max-width: 100%;
+    height: 450px;
+    padding-top: 50px; 
+}
+.seat h2{
+    color: rgb(5, 10, 67);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.seat1 img{
+    border: rgb(0, 0, 0) 10px solid;
+    display: block;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+.seat2 img{
+        border: rgb(0, 0, 0) 10px solid;
+        display: block;
+        border-radius: 50%;
+        width: 400px;
+        height: 400px;
+}
+.offers{
+    max-width: 100%;
+    height: 450px;
+    background-image: url(v1.png);
+    background-repeat: no-repeat;
+    padding-top: 50px;  
+}
+.offers h1{
+    color:rgb(16, 15, 15);
+    font: bold;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 370px;
+    padding-left: 50px;
+}
+.tb{
+    background-image: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), 
+        url('i8.png');
+    height: 500px;
+    max-width: 100%;
+    color: aliceblue;
+    display: flex;
+}
+.tb h3{
+    padding-left: 80px;
+}
+.au h5{
+    padding-left: 50px;
+}
+.bm h5{
+    padding-left: 80px;
+}
+.wf h5{
+    padding-left: 80px;
+}
+.pt h5{
+    padding-left: 80px;
+}
+.loyalty h5{
+    padding-left: 80px;
+}
+.b button{
+    background-color: black;
+    color: aliceblue;
+
+}
+.b button:hover{
+    background-color: blue;
+    color: aliceblue;
+
+}

@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>support page pf airlines</title>
+</head>
+<style>
+    .nav{
+    background-color: rgb(216, 207, 207);
+    height: 100px;   
+    }
+    .a{
+        float: right;
+    }
+    .naup{
+        float: right;
+    }
+    .naup ul{
+        display: flex;
+    }
+    .naup li{
+        list-style: none;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .naup li a{
+        color: black;
+        text-decoration: none;
+    }
+    .nadn{
+        float: right;
+    }
+    .nadn ul{
+        display: flex;   
+    }
+    .nadn li{
+        list-style: none;
+        margin-right: 20px;
+    }
+    .nadn li a{
+        color: black;
+        text-decoration: none;   
+        position: relative;
+    }
+    .nadn li a:after {
+        content: "";
+        position: absolute;
+        background-color: red;
+        height: 3px;
+        width: 0;
+        left: 0px;
+        bottom: -5px;
+        transition: 0.3s;
+    }
+    .nadn li a:hover:after{
+    width: 100%;
+    }
+    .show{
+        width: 100%;
+        height:300px;
+        background-color:aliceblue;
+        display: flex; 
+        margin-top: 6px;
+        position: fixed;  
+    }
+    .show li{
+        text-decoration: none;
+        font-family: sans-serif;
+        list-style-type: none; 
+    }
+    .mega{
+        display: flex;.show {
+        width: 100%;
+        height: 300px;
+        background-color: aliceblue;
+        display: flex;
+    }
+    #nave {
+        position: absolute;   
+    }
+        margin-left: 100px;
+    }
+    .mega ul li a{
+        text-decoration: none;
+        color: black;    
+    }
+    .m li{
+    padding-top: 10%;
+    white-space: nowrap; 
+    }
+    .m2{
+        margin-top: 25%;
+    }
+    .m2 li{
+        padding-top: 10%;
+        white-space: nowrap;    
+    }
+    .mega2{
+        display: flex;  
+        margin-left: 10%; 
+    }
+    .mega2 ul li a{
+        text-decoration: none;
+        color: black;  
+    }
+
+    .m3 li{
+        padding-top: 5% ;
+        padding-left: 20%;
+        white-space: nowrap;   
+    }
+    .m4{
+        margin-top: 22%;
+        white-space: nowrap; 
+        margin-left: 30px;
+    }
+    .m4 li{
+        padding:5%;
+    }
+    .show1{
+        background-color: aliceblue;
+        width: 100%;
+        height:300px;
+        margin-top: 6px;
+    }
+    .show1 li{
+        text-decoration: none;
+        font-family: sans-serif;
+        list-style-type: none;   
+    }
+    .mega1{
+        display: flex;.show {
+        display: flex;
+    }
+    .show1{
+        height: 300px;
+        width:100%;
+        left:0;
+        position: fixed;
+    }
+    #nave1 {
+        position: absolute; 
+        top: 50px;
+        left: 0; 
+        width: 100%;
+    }
+        margin-left: 200px;
+    }
+    .show1{
+        display: flex;
+    }
+    .m1 li{
+        list-style: none;
+        margin-top:5%;    
+    }
+    .m1 li a{
+        text-decoration: none;
+        color: black;   
+    }
+    .show2{
+        background-color: aliceblue;
+        margin-top: 6px;
+    }
+    .show2 li{
+        text-decoration: none;
+        font-family: sans-serif;
+        list-style-type: none;   
+    }
+    .show2{
+        height: 300px;
+        width:100%;
+        left:0;
+        position: fixed;
+    }
+    #nave2 {
+        position: absolute; 
+        top: 50px;
+        left: 0; 
+        width: 100%;
+    }
+    .show2{
+        display: flex;
+    }
+
+    .m5 h2 {
+        margin-left: 2%;
+        white-space: nowrap;  
+    }
+    .m5 li{
+        list-style: none;
+        margin-top:5%;  
+        margin-left: 20%;  
+    }
+    .m5 li a{
+        text-decoration: none;
+        color: black;   
+    }
+    .exp{
+        background-color: aliceblue;
+        display: flex;
+        width: 100%;
+        height: 300px;
+        position: fixed;
+        margin-top: 6px;
+    }
+    .sh3{
+        width: 100%;
+        display: flex;
+        position: fixed;
+        
+    }
+    #nave3 {
+        position: relative; 
+        top: 50px;
+        left: 0; 
+        width: 100%;
+    }
+    .m6 li{
+        list-style: none;
+        margin-top: 15px;
+        font-family: sans-serif;
+    }
+    .m6 li a {
+        text-decoration: none;
+        color: black;
+    }
+    .im2{
+        margin-left: 12%;
+        display: flex;
+        margin-top: 10px;
+    }
+    .im2 img{
+        padding-left: 40px;
+    }
+    .loyal{
+            background-color: aliceblue;
+            display: flex;
+            width: 100%;
+            height: 300px;
+            position: fixed;
+            margin-top: 6px;
+    }
+    .m7 li{
+        list-style: none;
+        font-family: sans-serif;margin-top: 5%;
+    }
+    .m7 li a{ 
+        color: black;
+        text-decoration: none;
+    }
+    .im3{
+        margin-left: 15%;
+        display: flex;
+        margin-top: 10px;
+        position: relative;
+    }
+    .im3 img{
+        padding-left: 40px;
+    }
+    .imgtext{
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 255) 0%, rgba(0.1, 0.2, 0.3, 0.5) 100%);
+        position: absolute;
+        top: 5px;
+        left: 40px;
+        width: 250px;
+        height: 250px;
+    }
+    .imgtext p{
+        position: absolute;
+        color: white;
+        top: 140px;
+        left: 70px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .imgtext h3 {
+        position: absolute;
+        color: aliceblue;
+        top: 150px;
+        left: 70px;
+        font-size: 24px;
+        font-weight: bold;    
+    }
+    .imgtext h4{
+        position: absolute;
+        color: white;
+        top:170px;
+        left: 70px;
+        font-size:24px ;
+        font-weight: bold;
+    }
+    .imgtext1{
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 255) 0%, rgba(0.1, 0.2, 0.3, 0.5) 100%);
+        position: absolute;
+        top: 5px;
+        left: 40px;
+        width: 250px;
+        height: 250px;
+    }
+    .imgtext1 p{
+        position: absolute;
+        color: white;
+        top: 140px;
+        left: 60px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .imgtext1 h3, .imgtext3 h3 {
+        position: absolute;
+        color: aliceblue;
+        top: 150px;
+        left: 60px;
+        font-size: 24px;
+        font-weight: bold;    
+    }
+    .imgtext1 h6{
+        position: absolute;
+        color: white;
+        top:210px;
+        left: 60px;
+        font-size:24px ;
+        font-weight: bold;
+    }
+    .row2 {
+        position: relative;
+    }
+    .imgtext2,.imgtext3{
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 255) 0%, rgba(0.1, 0.2, 0.3, 0.5) 100%);
+        position: absolute;
+        top: 5px;
+        left: 40px;
+        width: 250px;
+        height: 250px;
+    }
+    .imgtext2 p, .imgtext3 p{
+        position: absolute;
+        color: white;
+        top: 140px;
+        left: 60px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .imgtext2 h3,.imgtext3 h3 {
+        position: absolute;
+        color: aliceblue;
+        top: 150px;
+        left: 20px;
+        font-size: 24px;
+        font-weight: bold;    
+    }
+    .imgtext2 h6{
+        position: absolute;
+        color: aliceblue;
+        top: 210px;
+        left: 20px;  
+    }
+    .imgtext4,.imgtext5{
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 255) 0%, rgba(0.1, 0.2, 0.3, 0.5) 100%);
+        position: absolute;
+        top: 13px;
+        left: 40px;
+        width: 250px;
+    height: 250px;  
+    }
+    .imgtext4 a,.imgtext5 a {
+        position: absolute;
+        color: aliceblue;
+        top: 150px;
+        left: 20px;
+        text-decoration: none;
+    }
+    .imgtext5 h6{
+        position: absolute;
+        color: aliceblue;
+        top: 50px;
+        left: 0px;
+    }
+    .container{
+        margin-top: 10px;
+        background-color: rgb(248, 239, 228);
+        height: 220px;
+        width: 100%;
+    }
+    
+    .container button{
+        display: inline;
+        padding-right: 2%;
+        padding-left: 2%;
+        background-color:white;
+        border: 0px;
+        margin-top: 5px;
+        margin-left: 5%;
+    }
+    .form-section {
+        display: none;
+    }
+    #search {
+        display: block;
+    }
+        body {
+            background-image: url(31.jpeg);
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            color: rgb(222, 255, 173);
+            padding: 20px 0;
+            text-align: left;
+            font-size: 40px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 45px;
+            font-weight: 600;
+        }
+        #para {
+            background-color: #e6f7ff; 
+            padding: 20px;
+            border-radius: 8px;
+            font-weight: 500;
+            margin-top: 20px; 
+        }
+        #para1 {
+            margin-top: 30px; 
+            padding: 20px;
+            border-radius: 8px;
+            background-color: white; 
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
+        }
+        #para1 p {
+            line-height: 1.5; 
+        }
+        button {
+            background-color: #c8102e; 
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 10px; 
+            transition: background-color 0.3s ease; 
+        }
+        button:hover {
+            background-color: #a60f24; 
+        }
+        .slider {
+        position: relative;
+        max-width: 1200px; 
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .row {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .column {
+        min-width: 100%;
+    }
+
+    .slide img {
+        width: 100%;
+    }
+
+    .fade {
+        display: none; /* Hide all slides by default */
+    }
+
+    .fade.show {
+        display: block; /* Show active slide */
+    }
+
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    .prev { left: 0; }
+    .next { right: 0; }
+        </style>
+<body>
+
+    <nav>
+        <div class="nav">
+        <img src="logo.png" style="height:40px; width:180px; padding-top:20px; padding-left:10px">
+            <div class="a">
+            <div class="naup">
+            <ul>
+                <li>GIFT CARD</li>
+                <li>AIRINDIA.COM</li>
+                <li>ORDER STATUS</li>
+                <li>CHECK BALANCE</li>
+            </ul>
+            </div>
+            <br>
+            
+          </div>
+          </div>
+          <div id="nave" onmouseleave="closenav()"></div> 
+          <div id="nave1" onmouseleave="closenav1()" ></div>
+          <div id="nave2" onmouseleave="closenav2()" ></div>
+          <div id="nave3" onmouseleave="closenav3()" ></div>  
+        </nav>
+    <br>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <br>
+    
+    <br>
+    
+    <div class="slider">
+        <div class="row">
+            <div class="column fade">
+                <img src="21.jpg" alt="Image 1">
+            </div>
+            <div class="column fade">
+                <img src="22.jpg" alt="Image 2">
+            </div>
+        </div>
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+    
+    <div id="para">
+    <p>For any problem on this website call on this customer service website for better information and help
+        +91 8320278775.</p>
+    </div>
+
+    <div id="para1">
+        <h1> Submit a question or feedback</h1>
+        <p>
+            Do you have inquiries about your travel plans or feedback to share? Kindly select a category to begin. Your input will assist us in directing your request to a suitable customer service executive, ensuring a response within 24 hours.
+        </p>
+
+        <button onclick="alert('You selected Refunds')"> Refunds</button>
+        <button onclick="alert('You selected Button')"> Baggage</button>
+        <button onclick="alert('You selected Button')">Booking</button>
+        <button onclick="alert('You have selected Flight Disruption')">Flight Disruption</button>
+        <button onclick="alert('You can write Feedback')">Feedback</button>
+
+    </div>
+    
+</body>
+</html>
