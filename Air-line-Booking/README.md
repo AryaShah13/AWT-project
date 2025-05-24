@@ -34,6 +34,9 @@ A dynamic web application for searching, booking, and managing airline flights. 
 
 ## 🖼️ Screenshots
 ![image](https://github.com/user-attachments/assets/ee0512e6-0ce6-4c34-998c-1509bd83ab68)
+![Screenshot 2025-05-24 140219](https://github.com/user-attachments/assets/3398f06a-5599-4c8c-8b69-9c9a800e9fa4)
+
+
 
 
 
