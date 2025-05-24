@@ -44,7 +44,8 @@ A dynamic web application for searching, booking, and managing airline flights. 
 # Here after some time a login must be required for and also cinnect with database if incorrect you cant access it
 ![Screenshot 2025-05-24 140139](https://github.com/user-attachments/assets/e4d67a82-857b-4191-985b-8ea157433f89)
 ![Screenshot 2025-05-24 140149](https://github.com/user-attachments/assets/9dabbc95-b46c-442c-9429-58b0fa325d72)
-#Search flight if it availble so you can ticket book
+
+# Search flight if it availble so you can ticket book
 ![Screenshot 2025-05-24 140158](https://github.com/user-attachments/assets/334dbb11-7f69-4744-973d-9852fc24dac1)
 ![Screenshot 2025-05-24 140205](https://github.com/user-attachments/assets/e516d81b-3ff1-4d71-a120-daf873410710)
 ![Screenshot 2025-05-24 140219](https://github.com/user-attachments/assets/3398f06a-5599-4c8c-8b69-9c9a800e9fa4)
